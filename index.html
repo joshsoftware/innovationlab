@@ -12,117 +12,34 @@
 
         <div class="mb-8">
             <div class="flex space-x-4 mb-4">
-                <button class="bg-blue-500 text-white px-4 py-2 rounded" onclick="showTab('ongoing')">Ongoing Projects</button>
-                <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="showTab('completed')">Completed Projects</button>
-                <button class="bg-yellow-500 text-white px-4 py-2 rounded" onclick="showTab('planned')">Planned Projects</button>
+                <button class="bg-gray-500 text-white px-4 py-2 rounded" onclick="showTab('ongoing')">Ongoing Projects</button>
+                <button class="bg-gray-500 text-white px-4 py-2 rounded" onclick="showTab('completed')">Completed Projects</button>
+                <button class="bg-gray-500 text-white px-4 py-2 rounded" onclick="showTab('planned')">Planned Projects</button>
             </div>
 
             <div id="ongoing" class="tab-content">
                 <h2 class="text-2xl font-semibold mb-4">Ongoing Projects</h2>
-                <div class="space-y-4">
-                    <div class="bg-white p-4 rounded shadow">
-                        <h3 class="text-xl font-semibold">Call Summarization</h3>
-                        <p class="mb-2">Description: This project focuses on converting voice input data in Indian languages into text. The text data will then be analyzed to generate a summary.</p>
-                        <h5>Team:</h5>
-                        <p class="mb-2">
-                            <ul>
-                              <li><a href="https://github.com/kumarpanzade" class="text-blue-500 text-sm">Prajjwalkumar Panzade</a></li>
-                              <li> <a href="https://github.com/SharyuMarwadi" class="text-blue-500 text-sm">Sharyu Marwadi</a>    </li>
-                              <li><a href="https://github.com/sourabh-josh" class="text-blue-500 text-sm">Sourabh Bharale</a>        </li>
-                            </ul>           
-                        </p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mb-2">
-                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
-                        </div>
-                        <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm">View Details</button>
-                    </div>
-                    <div class="bg-white p-4 rounded shadow">
-                        <h3 class="text-xl font-semibold">Project B</h3>
-                        <p class="mb-2">Brief description of Project B.</p>
-                        <p class="mb-2">Team: Alice Johnson, Bob Williams</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mb-2">
-                            <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
-                        </div>
-                        <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm">View Details</button>
-                    </div>
-                </div>
+                <div id="projects_container_ongoing" class="space-y-4"></div>
             </div>
 
             <div id="completed" class="tab-content hidden">
                 <h2 class="text-2xl font-semibold mb-4">Completed Projects</h2>
-                <div class="space-y-4">
-                    <div class="bg-white p-4 rounded shadow">
-                        <h3 class="text-xl font-semibold">Project X</h3>
-                        <p class="mb-2">Achievements and outcomes of Project X.</p>
-                        <p class="mb-2">Team: Emily Brown, Michael Green</p>
-                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Project X" class="w-full h-40 object-cover rounded mb-2">
-                        <p class="mb-2">Impact: Increased efficiency by 30%</p>
-                    </div>
-                    <div class="bg-white p-4 rounded shadow">
-                        <h3 class="text-xl font-semibold">Project Y</h3>
-                        <p class="mb-2">Achievements and outcomes of Project Y.</p>
-                        <p class="mb-2">Team: David Lee, Sarah Wilson</p>
-                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Project Y" class="w-full h-40 object-cover rounded mb-2">
-                        <p class="mb-2">Impact: Reduced costs by 25%</p>
-                    </div>
-                </div>
+                <div id="projects_container_completed" class="space-y-4"></div>
             </div>
 
             <div id="planned" class="tab-content hidden">
                 <h2 class="text-2xl font-semibold mb-4">Planned Projects</h2>
-                <div class="space-y-4">
-                    <div class="bg-white p-4 rounded shadow">
-                        <h3 class="text-xl font-semibold">Future Project 1</h3>
-                        <p class="mb-2">Goals and timeline for Future Project 1.</p>
-                        <p class="mb-2">Team: Tom Jackson, Emma White</p>
-                        <p class="mb-2">Timeline: Q3 2023 - Q1 2024</p>
-                        <p class="mb-2">Objectives: Improve user experience, increase engagement</p>
-                        <button class="bg-yellow-500 text-white px-3 py-1 rounded text-sm">Express Interest</button>
-                    </div>
-                    <div class="bg-white p-4 rounded shadow">
-                        <h3 class="text-xl font-semibold">Future Project 2</h3>
-                        <p class="mb-2">Goals and timeline for Future Project 2.</p>
-                        <p class="mb-2">Team: Olivia Brown, James Taylor</p>
-                        <p class="mb-2">Timeline: Q4 2023 - Q2 2024</p>
-                        <p class="mb-2">Objectives: Develop new technology, expand market reach</p>
-                        <button class="bg-yellow-500 text-white px-3 py-1 rounded text-sm">Express Interest</button>
-                    </div>
-                </div>
+                <div id="projects_container_planned" class="space-y-4"></div>
             </div>
         </div>
 
         <div class="mb-8">
             <h2 class="text-2xl font-semibold mb-4">Contributors</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="bg-white p-4 rounded shadow flex items-center">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="John Doe" class="w-16 h-16 rounded-full mr-4">
-                    <div>
-                        <h3 class="text-lg font-semibold">John Doe</h3>
-                        <p class="text-sm">Project Manager</p>
-                        <a href="#" class="text-blue-500 text-sm">Profile</a>
-                    </div>
-                </div>
-                <div class="bg-white p-4 rounded shadow flex items-center">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="Jane Smith" class="w-16 h-16 rounded-full mr-4">
-                    <div>
-                        <h3 class="text-lg font-semibold">Jane Smith</h3>
-                        <p class="text-sm">Lead Developer</p>
-                        <a href="#" class="text-blue-500 text-sm">Profile</a>
-                    </div>
-                </div>
-                <div class="bg-white p-4 rounded shadow flex items-center">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=100&q=80" alt="Bob Williams" class="w-16 h-16 rounded-full mr-4">
-                    <div>
-                        <h3 class="text-lg font-semibold">Bob Williams</h3>
-                        <p class="text-sm">UX Designer</p>
-                        <a href="#" class="text-blue-500 text-sm">Profile</a>
-                    </div>
-                </div>
-            </div>
+            <div id="members_container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
         </div>
 
         <div class="text-center">
-            <button class="bg-purple-600 text-white px-6 py-3 rounded-full text-xl font-semibold hover:bg-purple-700 transition duration-300">Join the Team</button>
+            <a id="join_team_link" href="#" target="_BLANK" class="bg-red-600 text-white px-6 py-3 rounded-full text-xl font-semibold hover:bg-purple-700 transition duration-300">Join the Team</a>
         </div>
     </div>
 
@@ -131,6 +48,93 @@
             document.querySelectorAll('.tab-content').forEach(tab => tab.classList.add('hidden'));
             document.getElementById(tabId).classList.remove('hidden');
         }
+
+        function renderProjects(containerElementId, projects, members) {
+            projects.forEach(project => {
+                    const container = document.getElementById(containerElementId);
+
+                    const projectDiv = document.createElement('div');
+                    var divContent = ``;
+                    divContent +=
+                    `
+                        <div class="flex flex-col items-start bg-white p-4 rounded shadow">
+                            <h3 class="text-xl font-semibold">${project.name}</h3>
+                            <p class="mb-2">${project.description}</p>
+                            <h5>Team:</h5>
+                            <p class="mb-2">
+                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    `;
+                    project.team.forEach(memberId => {
+                        const member = members.find((m) => m.id === memberId);
+                        if (member) {
+                            // divContent += `<li><a href="https://github.com/${member.github}" target="_BLANK" class="text-blue-500 text-sm">${member.name}<a></li>`;
+                            divContent += `
+                                <div class="bg-white p-3 rounded shadow flex items-center">
+                                    <img src="https://github.com/${member.github}.png" alt="${member.name}" class="w-16 h-16 rounded-full mr-4">
+                                    <div>
+                                        <h3 class="text-lg font-semibold">${member.name}</h3>
+                                        <a href="${member.github}" target="_BLANK" class="text-blue-500 text-sm">Profile</a>
+                                    </div>
+                                </div>`;
+                        }
+                    });
+                    divContent +=
+                    `
+                                </div>
+                            </p>
+                            <a href="${project.repo}" target="_BLANK" class="bg-red-500 rounded-full text-white px-3 py-1 rounded text-sm mt-4">View Repo</a>
+                        </div>
+                    `;
+                    projectDiv.innerHTML = divContent;
+                    container.appendChild(projectDiv);
+            });
+        }
+
+        function renderMembers(members) {
+            const container = document.getElementById("members_container");
+
+            members.forEach(member => {
+                if (member.active) {
+                    const memberDiv = document.createElement('div');
+                    const divContent = `
+                    <div class="bg-white p-4 rounded shadow flex items-center">
+                        <img src="https://github.com/${member.github}.png" alt="${member.name}" class="w-16 h-16 rounded-full mr-4">
+                        <div>
+                            <h3 class="text-lg font-semibold">${member.name}</h3>
+                            <p class="text-sm">${member.designation}</p>
+                            <a href="${member.github}" target="_BLANK" class="text-blue-500 text-sm">Profile</a>
+                        </div>
+                    </div>
+                    `;
+                    memberDiv.innerHTML = divContent;
+                    container.appendChild(memberDiv);
+                }
+            });
+        }
+
+        function renderAllData() {
+            fetch('data/data.json')
+            .then(response => response.json())
+            .then(data => {
+                renderProjects("projects_container_ongoing", data.projects.ongoing, data.members);
+                renderProjects("projects_container_completed", data.projects.completed, data.members);
+                renderProjects("projects_container_planned", data.projects.planned, data.members);
+
+                renderMembers(data.members);
+
+                setJoinFormLink(data.join_link);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        
+        function setJoinFormLink(link) {
+            document.getElementById("join_team_link").href = link;
+        }
+        
+        renderAllData();
     </script>
 </body>
 </html>

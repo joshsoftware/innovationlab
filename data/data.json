@@ -1,0 +1,154 @@
+{
+    "members": [
+        {
+            "id": "1",
+            "name": "Anuj Verma",
+            "github": "iamanujvrma",
+            "designation": "Engineering Manager",
+            "active":false
+        },
+        {
+            "id": "2",
+            "name": "Shubham Pradhan",
+            "github": "ShubhamPradhan17",
+            "designation": "Software Engineer",
+            "active":false
+        },
+        {
+            "id": "3",
+            "name": "Monica",
+            "github": "Monica-MRN",
+            "designation": "Software Engineer",
+            "active":false
+        },
+        {
+          "id": "4",
+          "name": "Prajjwalkumar Panzade",
+          "github": "kumarpanzade",
+          "designation": "Software Engineer",
+          "active":true
+        },
+        {
+          "id": "5",
+          "name": "Sharyu Marwadi",
+          "github": "SharyuMarwadi",
+          "designation": "Software Engineer",
+          "active":true
+        },
+        {
+          "id": "6",
+          "name": "Sourabh Bharale",
+          "github": "sourabh-josh",
+          "designation": "Software Engineer",
+          "active":true
+        },
+        {
+          "id": "7",
+          "name": "Prajwal",
+          "github": "kumarpanzade",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "8",
+          "name": "Samrath",
+          "github": "samrocks03",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "9",
+          "name": "Divya",
+          "github": "divyatambat",
+          "designation": "",
+          "active":true
+        }, {
+          "id": "10",
+          "name": "Sagar Sonawane",
+          "github": "sagar23sj",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "11",
+          "name": "Ajinkya Karanjikar",
+          "github": "AjinkyaASK",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "12",
+          "name": "Ankitkumar Singh",
+          "github": "ankitatjosh",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "13",
+          "name": "Vinay Chopda",
+          "github": "AlgorithmChopda",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "14",
+          "name": "Sharanya",
+          "github": "SharanyaSD",
+          "designation": "",
+          "active":true
+        }, {
+          "id": "15",
+          "name": "Sharyu Marwadi",
+          "github": "SharyuMarwadi",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "16",
+          "name": "Sethupathi Asokan",
+          "github": "sethu",
+          "designation": "",
+          "active":true
+        },
+        {
+          "id": "17",
+          "name": " Vishwajeetsingh Desurkar",
+          "github": "selectus2",
+          "designation": "",
+          "active":true
+        }
+    ],
+    "projects": {
+        "completed": [
+            {
+                "id": "1",
+                "name": "E-KYC Spoof",
+                "description": "This is a PoC project for eKYC spoofing. Analyse if this issue is real and are there solutions If not, identify a tool to showcase the spoof a person in video Try to spoof it on eKYS website Identify a tool or contribute to a tool which can detect the spoof Or build eKYC spoofing as a testing utility for liveness detection",
+                "tech": "Python, OBS",
+                "team": ["1","2","3"],
+                "repo": "https://github.com/joshsoftware/ekyc-spoof"
+            }
+        ],
+        "ongoing": [
+            {
+                "id": "1",
+                "name": "Call Summarization",
+                "description": "This project focuses on converting voice input data in Indian languages into text. The text data will then be analyzed to generate a summary.",
+                "tech": "Python, NextJs, Fast Api, Whisper, LLama 3.1",
+                "team": ["4","5","6"],
+                "repo": "https://github.com/joshsoftware/lingo.ai"
+            }
+        ],
+        "planned": [
+            {
+                "id": "1",
+                "name": "ChatBot AI",
+                "description": "A private ChatGPT tailored for your organization's specific data. This application allows you to communicate with your own data, which can include PDFs, text, and more.",
+                "tech": "Python, LLama 3.1, Llama Index,Vector DB, RAG",
+                "team": ["7","8","9"],
+                "repo": "https://github.com/joshsoftware/lingo.ai"
+            }
+        ]
+    },
+    "join_link": ""
+  }
