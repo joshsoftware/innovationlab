@@ -110,23 +110,16 @@
         "github": "selectus2",
         "designation": "",
         "active":true
-      },
+      },      
       {
         "id": "18",
-        "name": " Vishwajeetsingh Desurkar",
-        "github": "selectus2",
-        "designation": "",
-        "active":true
-      },
-      {
-        "id": "19",
-        "name": "sushmita",
+        "name": "Sushmita",
         "github": "sushmitaw",
         "designation": "",
         "active":true
       },
       {
-        "id": "20",
+        "id": "19",
         "name": "Sonal",
         "github": "13-Sonal",
         "designation": "",
