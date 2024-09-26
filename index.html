@@ -7,14 +7,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
-    <div class="container mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold text-center mb-8">Josh Innovation Lab</h1>
+    <nav class="bg-white sticky">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./assets/img/Joshlogo.png" class="h-8" alt="Josh Software Logo" />
+            <span class="self-center text-2xl font-bold whitespace-nowrap pt-2">Innovation Lab</span>
+        </a>      
+        </div>
+    </nav>
+
+    <div>
+        <div class="container mx-auto px-4 pt-12 pb-8">
+            <h2 class="text-2xl font-semibold mb-4">Welcome to Josh Innovation Lab</h2>
+            <p class="text-justify">
+                At Josh Innovation Lab, we’re pushing the boundaries of technology to drive meaningful innovation. Our team is dedicated to exploring and experimenting with cutting-edge solutions, tackling complex challenges beyond our everyday work. From conversational AI to computer vision and eKYC deepfake detection, we are currently working on a variety of AI-driven projects aimed at transforming industries and creating a smarter future. By blending creativity with technical expertise, we bring visionary ideas to life and shape the technology landscape of tomorrow.
+            </p>
+        </div>
+    </div>
+  
+    <div class="container mx-auto px-4 pt-8 pb-8">
 
         <div class="mb-8">
             <div class="flex space-x-4 mb-4">
-                <button class="bg-blue-500 text-white px-4 py-2 rounded" onclick="showTab('ongoing')">Ongoing Projects</button>
-                <button class="bg-green-500 text-white px-4 py-2 rounded" onclick="showTab('completed')">Completed Projects</button>
-                <button class="bg-yellow-500 text-white px-4 py-2 rounded" onclick="showTab('planned')">Planned Projects</button>
+                <button id="btn-ongoing" class="btn-selector bg-blue-500 text-white px-4 py-2 rounded" onclick="showTab('ongoing')">Ongoing Projects</button>
+                <button id="btn-completed" class="btn-selector bg-gray-500 text-white px-4 py-2 rounded" onclick="showTab('completed')">Completed Projects</button>
+                <button id="btn-planned" class="btn-selector bg-gray-500 text-white px-4 py-2 rounded" onclick="showTab('planned')">Planned Projects</button>
             </div>
 
             <div id="ongoing" class="tab-content">
@@ -34,12 +51,12 @@
         </div>
 
         <div class="mb-8">
-            <h2 class="text-2xl font-semibold mb-4">Contributors</h2>
+            <h2 class="text-2xl font-semibold mb-4">Active Contributors</h2>
             <div id="members_container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
         </div>
 
         <div class="text-center">
-            <a id="join_team_link" href="#" target="_BLANK" class="bg-red-600 text-white px-6 py-3 rounded-full text-xl font-semibold hover:bg-purple-700 transition duration-300">Join the Team</a>
+            <a id="join_team_link" href="https://forms.gle/m7idVXhbYbWneNRb7" target="_BLANK" class="bg-blue-600 text-white px-6 py-3 rounded-full text-xl font-semibold hover:bg-purple-700 transition duration-300">Join the Team</a>
         </div>
     </div>
 
@@ -47,6 +64,29 @@
         function showTab(tabId) {
             document.querySelectorAll('.tab-content').forEach(tab => tab.classList.add('hidden'));
             document.getElementById(tabId).classList.remove('hidden');
+            
+            document.querySelectorAll('.btn-selector').forEach(btn => {
+                btn.classList.add('bg-gray-500');
+                btn.classList.remove('bg-blue-500', 'bg-green-500', 'bg-yellow-500');
+            });
+
+            const activeBtn = document.getElementById(`btn-${tabId}`);
+            activeBtn.classList.remove('bg-gray-500')
+            activeBtn.classList.add('bg-blue-500');              
+        }
+
+        showTab('ongoing');
+
+        function getMemberHTML(member) {
+            return `
+            <a href="https://github.com/${member.github}" target="_BLANK" class="bg-white p-3 rounded shadow flex items-center cursor-pointer hover:shadow-lg hover:border-solid">
+                <img src="https://github.com/${member.github}.png" alt="${member.name}" class="w-16 h-16 rounded-full mr-4">
+                <div>
+                    <h3 class="text-lg font-semibold">${member.name}</h3>
+                    <p class="text-sm">${member.designation}</p>
+                </div>
+            </a>
+            `;
         }
 
         function renderProjects(containerElementId, projects, members) {
@@ -62,27 +102,19 @@
                             <p class="mb-2">${project.description}</p>
                             <h5>Team:</h5>
                             <p class="mb-2">
-                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
                     `;
                     project.team.forEach(memberId => {
                         const member = members.find((m) => m.id === memberId);
                         if (member) {
-                            // divContent += `<li><a href="https://github.com/${member.github}" target="_BLANK" class="text-blue-500 text-sm">${member.name}<a></li>`;
-                            divContent += `
-                                <div class="bg-white p-3 rounded shadow flex items-center">
-                                    <img src="https://github.com/${member.github}.png" alt="${member.name}" class="w-16 h-16 rounded-full mr-4">
-                                    <div>
-                                        <h3 class="text-lg font-semibold">${member.name}</h3>
-                                        <a href="${member.github}" target="_BLANK" class="text-blue-500 text-sm">Profile</a>
-                                    </div>
-                                </div>`;
+                            divContent += getMemberHTML(member);
                         }
                     });
                     divContent +=
                     `
                                 </div>
                             </p>
-                            <a href="${project.repo}" target="_BLANK" class="bg-red-500 rounded-full text-white px-3 py-1 rounded text-sm mt-4">View Repo</a>
+                            <a href="${project.repo}" target="_BLANK" class="bg-blue-500 rounded-full text-white px-3 py-1 rounded text-sm mt-4">View Details</a>
                         </div>
                     `;
                     projectDiv.innerHTML = divContent;
@@ -96,16 +128,8 @@
             members.forEach(member => {
                 if (member.active) {
                     const memberDiv = document.createElement('div');
-                    const divContent = `
-                    <div class="bg-white p-4 rounded shadow flex items-center">
-                        <img src="https://github.com/${member.github}.png" alt="${member.name}" class="w-16 h-16 rounded-full mr-4">
-                        <div>
-                            <h3 class="text-lg font-semibold">${member.name}</h3>
-                            <p class="text-sm">${member.designation}</p>
-                            <a href="${member.github}" target="_BLANK" class="text-blue-500 text-sm">Profile</a>
-                        </div>
-                    </div>
-                    `;
+                    const divContent = getMemberHTML(member);
+
                     memberDiv.innerHTML = divContent;
                     container.appendChild(memberDiv);
                 }
@@ -120,7 +144,7 @@
                 renderProjects("projects_container_completed", data.projects.completed, data.members);
                 renderProjects("projects_container_planned", data.projects.planned, data.members);
 
-                renderMembers(data.members);
+                renderMembers(sortMembersByName(data.members));
 
                 setJoinFormLink(data.join_link);
             })
@@ -129,7 +153,10 @@
             });
         }
 
-        
+        function sortMembersByName(members) {
+            return members.sort((a, b) => a.name.localeCompare(b.name));
+        }
+
         function setJoinFormLink(link) {
             document.getElementById("join_team_link").href = link;
         }
