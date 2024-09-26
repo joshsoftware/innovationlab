@@ -141,7 +141,7 @@
           {
               "id": "1",
               "name": "Lingo.ai",
-              "description": "Our Lingo project converts voice input from Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
+              "description": "Lingo.ai project converts voice input from Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
               "tech": "Python, NextJs, Fast Api, Whisper, LLama 3.1",
               "team": ["4","5","6"],
               "repo": "https://github.com/joshsoftware/lingo.ai"
