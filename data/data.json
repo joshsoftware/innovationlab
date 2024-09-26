@@ -1,4 +1,4 @@
-{
+I{
   "members": [
       {
           "id": "1",
@@ -140,8 +140,8 @@
       "ongoing": [
           {
               "id": "1",
-              "name": "Call Summarization",
-              "description": "This project focuses on converting voice input data in Indian languages into text. The text data will then be analyzed to generate a summary.",
+              "name": "Lingo.ai",
+              "description": "Our Call Summarization project converts voice input from Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
               "tech": "Python, NextJs, Fast Api, Whisper, LLama 3.1",
               "team": ["4","5","6"],
               "repo": "https://github.com/joshsoftware/lingo.ai"
