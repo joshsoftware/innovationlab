@@ -172,7 +172,7 @@
               "description": "An AI-driven speech-to-speech agent for automating customer feedback collection, which will ask predefined questions, analyze responses, and rephrase questions if necessary to ensure complete feedback. This system enhances efficiency and engagement while reducing manual effort in feedback processes.",
               "tech": "RAG, Python, FastAPI, RASA, Vector DB",
               "team": ["7","10","14","6","13"],
-              "repo": "",
+              "repo": "https://github.com/joshsoftware/surveybees/blob/main/README.md",
               "demo": ""
           }
       ]
