@@ -124,6 +124,13 @@
         "github": "13-Sonal",
         "designation": "",
         "active":true
+      },
+      {
+        "id" : "20",
+        "name" : "Gaurav Sorte",
+        "github" : "gauravsorte",
+        "designation" : "",
+        "active" : true
       }
   ],
   "projects": {
@@ -134,17 +141,19 @@
               "description": "This is a PoC project for eKYC spoofing. Analyse if this issue is real and are there solutions If not, identify a tool to showcase the spoof a person in video Try to spoof it on eKYS website Identify a tool or contribute to a tool which can detect the spoof Or build eKYC spoofing as a testing utility for liveness detection",
               "tech": "Python, OBS",
               "team": ["1","2","3"],
-              "repo": "https://github.com/joshsoftware/ekyc-spoof"
+              "repo": "https://github.com/joshsoftware/ekyc-spoof",
+              "demo": "https://blog.joshsoftware.com/2024/10/01/will-the-real-deepfake-please-stand-up/"
           }
       ],
       "ongoing": [
           {
               "id": "1",
               "name": "Lingo.ai",
-              "description": "Lingo.ai project converts voice input from Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
-              "tech": "Python, NextJs, Fast Api, Whisper, LLama 3.1",
-              "team": ["4","5","6"],
-              "repo": "https://github.com/joshsoftware/lingo.ai"
+              "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
+              "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
+              "team": ["4","5","6","17"],
+              "repo": "https://github.com/joshsoftware/lingo.ai",
+              "demo": "https://lingo.ai.joshsoftware.com"
           }
       ],
       "planned": [
@@ -152,17 +161,19 @@
               "id": "1",
               "name": "ChatBot AI",
               "description": "A private ChatGPT tailored for your organization's specific data. This application allows you to communicate with your own data, which can include PDFs, text, and more.",
-              "tech": "Python, LLama 3.1, Llama Index,Vector DB, RAG",
-              "team": ["7","8","9"],
-              "repo": ""
+              "tech": "Python, LLama 3.2, Llama Index,Vector DB, RAG",
+              "team": ["9","20","4","5", "17"],
+              "repo": "https://github.com/joshsoftware/chatbot.ai/blob/main/README.md",
+              "demo": ""
           },
             {
               "id": "2",
-              "name": "Voice Feedback Agent",
-              "description": "We propose an AI-driven speech-to-speech agent for automating customer feedback collection, which will ask predefined questions, analyze responses, and rephrase questions if necessary to ensure complete feedback. This system enhances efficiency and engagement while reducing manual effort in feedback processes.",
-              "tech": "Next.JS, Python, Flask",
-              "team": ["10","14","6","7"],
-              "repo": ""
+              "name": "Survey Bees",
+              "description": "An AI-driven speech-to-speech agent for automating customer feedback collection, which will ask predefined questions, analyze responses, and rephrase questions if necessary to ensure complete feedback. This system enhances efficiency and engagement while reducing manual effort in feedback processes.",
+              "tech": "RAG, Python, FastAPI, RASA, Vector DB",
+              "team": ["7","10","14","6","13"],
+              "repo": "",
+              "demo": ""
           }
       ]
   },
