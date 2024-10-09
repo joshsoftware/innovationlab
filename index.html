@@ -77,13 +77,13 @@
 
         showTab('ongoing');
 
-        function getMemberHTML(member) {
+        function getMemberHTML(member,designation) {
             return `
             <a href="https://github.com/${member.github}" target="_BLANK" class="bg-white p-3 rounded shadow flex items-center cursor-pointer hover:shadow-lg hover:border-solid">
                 <img src="https://github.com/${member.github}.png" alt="${member.name}" class="w-16 h-16 rounded-full mr-4">
                 <div>
                     <h3 class="text-lg font-semibold">${member.name}</h3>
-                    <p class="text-sm">${member.designation}</p>
+                    <p class="text-sm">${designation}</p>
                 </div>
             </a>
             `;
@@ -94,6 +94,7 @@
                     const container = document.getElementById(containerElementId);
 
                     const projectDiv = document.createElement('div');
+                    roles = project.roles;
                     var divContent = ``;
                     divContent +=
                     `
@@ -112,8 +113,10 @@
                     `;
                     project.team.forEach(memberId => {
                         const member = members.find((m) => m.id === memberId);
+                        role = roles[memberId];
+                        
                         if (member) {
-                            divContent += getMemberHTML(member);
+                            divContent += getMemberHTML(member, role);
                         }
                     });
                     divContent +=
@@ -143,7 +146,7 @@
             members.forEach(member => {
                 if (member.active) {
                     const memberDiv = document.createElement('div');
-                    const divContent = getMemberHTML(member);
+                    const divContent = getMemberHTML(member, member.designation);
 
                     memberDiv.innerHTML = divContent;
                     container.appendChild(memberDiv);
