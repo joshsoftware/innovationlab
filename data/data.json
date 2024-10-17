@@ -178,6 +178,16 @@
               "roles": {"7":"Prompt Engineering", "10":"RASA", "14":"RASA", "6":"Embedding, Postgres VectorDB", "13":"Voice Chatbot"},
               "repo": "https://github.com/joshsoftware/surveybees/blob/main/README.md",
               "demo": ""
+          },
+            {
+              "id": "3",
+              "name": "Error Analyser",
+              "description": "An AI-driven error analyser which identify the cause of the error, steps to resolve the error and the impact on business.",
+              "tech": "RAG, Python, FastAPI, Vector DB",
+              "team": ["11","4","6"],
+              "roles": {"11":"LLM finalization", "4":"Prompt template", "6":"Embedding" },
+              "repo": "",
+              "demo": ""
           }
       ]
   },
