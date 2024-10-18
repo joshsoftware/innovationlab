@@ -183,9 +183,9 @@
               "id": "3",
               "name": "Error Analyser",
               "description": "An AI-driven error analyser which identify the cause of the error, steps to resolve the error and the impact on business.",
-              "tech": "RAG, Python, FastAPI, Vector DB",
-              "team": ["11","4","6"],
-              "roles": {"11":"LLM finalization", "4":"Prompt template", "6":"Embedding" },
+              "tech": "Ollama, Python, FastAPI, Llama 3.2, Frontend",
+              "team": ["11"],
+              "roles": {"11":"Ollama, FastAPI, Frontend" },
               "repo": "",
               "demo": ""
           }
