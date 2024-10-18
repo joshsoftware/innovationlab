@@ -144,11 +144,9 @@
               "roles": {"1":"R&D on video spoofing", "2":"Setup and documentation", "3":"R&D on deepfake"},
               "repo": "https://github.com/joshsoftware/ekyc-spoof",
               "demo": "https://blog.joshsoftware.com/2024/10/01/will-the-real-deepfake-please-stand-up/"
-          }
-      ],
-      "ongoing": [
+          },
           {
-              "id": "1",
+              "id": "2",
               "name": "Lingo.ai",
               "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
               "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
@@ -156,6 +154,18 @@
               "roles": {"4":"APIs, whisper & Llama integration", "5":"APIs, whisper & Llama integration", "6":"NextJS, Drizzle ORM, UploadThing ", "17":"Llama fine tunning"},
               "repo": "https://github.com/joshsoftware/lingo.ai",
               "demo": "https://lingo.ai.joshsoftware.com"
+          }
+      ],
+      "ongoing": [
+          {
+              "id": "1",
+              "name": "Error Analyser",
+              "description": "An AI-driven error analyser which identify the cause of the error, steps to resolve the error and the impact on business.",
+              "tech": "Ollama, Python, FastAPI, Llama 3.2, Frontend",
+              "team": ["11"],
+              "roles": {"11":"Ollama, FastAPI, Frontend" },
+              "repo": "",
+              "demo": ""
           }
       ],
       "planned": [
@@ -177,16 +187,6 @@
               "team": ["7","10","14","6","13"],
               "roles": {"7":"Prompt Engineering", "10":"RASA", "14":"RASA", "6":"Embedding, Postgres VectorDB", "13":"Voice Chatbot"},
               "repo": "https://github.com/joshsoftware/surveybees/blob/main/README.md",
-              "demo": ""
-          },
-            {
-              "id": "3",
-              "name": "Error Analyser",
-              "description": "An AI-driven error analyser which identify the cause of the error, steps to resolve the error and the impact on business.",
-              "tech": "Ollama, Python, FastAPI, Llama 3.2, Frontend",
-              "team": ["11"],
-              "roles": {"11":"Ollama, FastAPI, Frontend" },
-              "repo": "",
               "demo": ""
           }
       ]
