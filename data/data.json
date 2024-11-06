@@ -161,20 +161,19 @@
               "roles": {"4":"APIs, whisper & Llama integration", "5":"APIs, whisper & Llama integration", "6":"NextJS, Drizzle ORM, UploadThing ", "17":"Llama fine tunning"},
               "repo": "https://github.com/joshsoftware/lingo.ai",
               "demo": "https://lingo.ai.joshsoftware.com"
-          }
-      ],
-      "ongoing": [
+          },
           {
-              "id": "1",
-              "name": "Loglytics",
-              "description": "An AI-driven error log analyzer which identifies the cause of the error, steps to resolve the error, and the impact on business.",
-              "tech": "Ollama, FastAPI, Llama 3, NextJS",
-              "team": ["11","21"],
-              "roles": {"11":"Ollama, Llama 3, FastAPI, NextJS", "21":"NextJS" },
-              "repo": "https://github.com/joshsoftware/ErrorLogAnalyser",
-              "demo": "https://loglytics.joshsoftware.com/"
-          }
+                "id": "3",
+                "name": "Loglytics",
+                "description": "An AI-driven error log analyzer which identifies the cause of the error, steps to resolve the error, and the impact on business.",
+                "tech": "Ollama, FastAPI, Llama 3, NextJS",
+                "team": ["11","21"],
+                "roles": {"11":"Ollama, Llama 3, FastAPI, NextJS", "21":"NextJS" },
+                "repo": "https://github.com/joshsoftware/ErrorLogAnalyser",
+                "demo": "https://loglytics.joshsoftware.com/"
+            }
       ],
+      "ongoing": [],
       "planned": [
           {
               "id": "1",
