@@ -173,19 +173,20 @@
                 "demo": "https://loglytics.joshsoftware.com/"
             }
       ],
-      "ongoing": [],
-      "planned": [
-          {
+      "ongoing": [
+        {
               "id": "1",
               "name": "ChatBot AI",
               "description": "A private ChatGPT tailored for your organization's specific data. This application allows you to communicate with your own data, which can include PDFs, text, and more.",
               "tech": "Python, LLama 3.2, Llama Index,Vector DB, RAG",
-              "team": ["9","20","4","5", "17"],
-              "roles": {"9":"RAG data parsing", "20":"Prompt Engineering", "4":"Llama Index", "5":"RAG data parsing", "17":"Model fine tunning"},
+              "team": ["9","20","4","5","17","21","12"],
+              "roles": {"9":"RAG data parsing", "20":"Prompt Engineering", "4":"Llama Index", "5":"RAG data parsing", "17":"Model fine tunning","21":"Admin Utility","12":"Website Data Scrapping"},
               "repo": "https://github.com/joshsoftware/chatbot.ai/blob/main/README.md",
               "demo": ""
-          },
-            {
+          }
+      ],
+      "planned": [
+         {
               "id": "2",
               "name": "Survey Bees",
               "description": "An AI-driven speech-to-speech agent for automating customer feedback collection, which will ask predefined questions, analyze responses, and rephrase questions if necessary to ensure complete feedback. This system enhances efficiency and engagement while reducing manual effort in feedback processes.",
