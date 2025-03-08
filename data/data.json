@@ -224,7 +224,7 @@
             "team": ["921"."926"],
             "roles": {"926":"Embeddings and Vector DB", "921":"Chat Bot"},
             "repo": "https://github.com/joshsoftware/SupportHawk/",
-            "demo": ""
+            "demo": "https://support-hawk.joshsoftware.com"
         },
         {
               "id": "2",
