@@ -221,8 +221,8 @@
             "name": "Support Hawk",
             "description": "Empowering customer conversations in their local language with tailored contextual understanding",
             "tech": "Python, RoR, NextJS, LLama 3, AI4Bharat, Qdrant (Vector DB), RAG",
-            "team": ["921"."926"],
-            "roles": {"926":"Embeddings and Vector DB", "921":"Chat Bot"},
+            "team": ["921","926","SS13"],
+            "roles": {"926":"Embeddings and Vector DB", "921":"Chat Bot", "SS13":"Embeeding services"},
             "repo": "https://github.com/joshsoftware/SupportHawk/",
             "demo": "https://support-hawk.joshsoftware.com"
         },
@@ -231,8 +231,8 @@
               "name": "Lingo.ai",
               "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
               "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
-              "team": ["926","929","921","SS13"],
-              "roles": {"926":"APIs, whisper & Llama integration", "929":"APIs, whisper & Llama integration", "921":"NextJS, Drizzle ORM, UploadThing ", "SS13":"Llama fine tunning"},
+              "team": ["926","921"],
+              "roles": {"926":"APIs, whisper & Llama integration", "921":"NextJS, Drizzle ORM, UploadThing "},
               "repo": "https://github.com/joshsoftware/lingo.ai",
               "demo": "https://lingo.ai.joshsoftware.com"
         }
