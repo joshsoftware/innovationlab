@@ -33,7 +33,7 @@
         "name": "Sharyu Marwadi",
         "github": "SharyuMarwadi",
         "designation": "Software Engineer",
-        "active":true
+        "active":false
       },
       {
         "id": "921",
@@ -61,7 +61,7 @@
         "name": "Divya Tambat",
         "github": "divyatambat",
         "designation": "",
-        "active":true
+        "active":false
       }, {
         "id": "234",
         "name": "Sagar Sonawane",
@@ -74,14 +74,14 @@
         "name": "Ajinkya Karanjikar",
         "github": "AjinkyaASK",
         "designation": "",
-        "active":true
+        "active":false
       },
       {
         "id": "414",
         "name": "Ankitkumar Singh",
         "github": "ankitatjosh",
         "designation": "",
-        "active":true
+        "active":false
       },
       {
         "id": "915",
@@ -95,7 +95,7 @@
         "name": "Sharanya Datrange",
         "github": "SharanyaSD",
         "designation": "",
-        "active":true
+        "active":false
       },
       {
         "id": "1",
@@ -130,7 +130,7 @@
         "name" : "Gaurav Sorte",
         "github" : "gauravsorte",
         "designation" : "",
-        "active" : true
+        "active" : false
       },
       {
         "id" : "365",
@@ -144,14 +144,14 @@
         "name" : "Shubham Kumar",
         "github" : "shubhh139",
         "designation" : "",
-        "active" : true
+        "active" : false
       },
       {
         "id" : "905",
         "name" : "Pooja Lande",
         "github" : "poojalandejosh",
         "designation" : "",
-        "active" : true
+        "active" : false
       },
       {
         "id" : "913",
@@ -165,27 +165,27 @@
         "name" : "Kartik Hiwase",
         "github" : "Kartik-Josh",
         "designation" : "",
-        "active" : true
+        "active" : false
       },
       {
         "id" : "924",
         "name" : "Abhishek Dhondalkar",
         "github" : "Abhishek-Jain-1925",
         "designation" : "",
-        "active" : true
+        "active" : false
       },
       {
         "id" : "923",
         "name" : "Saurabh Puri",
         "github" : "purisaurabh",
         "designation" : "",
-        "active" : true
+        "active" : false
       }
   ],
   "projects": {
       "completed": [
           {
-              "id": "83",
+              "id": "1",
               "name": "E-KYC Spoof",
               "description": "This is a PoC project for eKYC spoofing. Analyse if this issue is real and are there solutions If not, identify a tool to showcase the spoof a person in video Try to spoof it on eKYS website Identify a tool or contribute to a tool which can detect the spoof Or build eKYC spoofing as a testing utility for liveness detection",
               "tech": "Python, OBS",
@@ -217,57 +217,38 @@
       ],
       "ongoing": [
         {
-              "id": "83",
-              "name": "ChatBot AI",
-              "description": "A private ChatGPT tailored for your organization's specific data. This application allows you to communicate with your own data, which can include PDFs, text, and more.",
-              "tech": "Python, LLama 3.2, Llama Index,Vector DB, RAG",
-              "team": ["927","656","926","929","SS13","365","414"],
-              "roles": {"927":"RAG data parsing", "656":"Prompt Engineering", "926":"Llama Index", "929":"RAG data parsing", "SS13":"Model fine tunning","365":"Admin Utility","414":"Website Data Scrapping"},
-              "repo": "https://github.com/joshsoftware/chatbot.ai/blob/main/README.md",
-              "demo": ""
-        },
-        {
-            "id": "2",
+            "id": "1",
             "name": "Support Hawk",
             "description": "Empowering customer conversations in their local language with tailored contextual understanding",
             "tech": "Python, RoR, NextJS, LLama 3, AI4Bharat, Qdrant (Vector DB), RAG",
-            "team": ["653","905","921","923"],
-            "roles": {"653":"RAG", "905":"Embeddings and Vector DB", "921":"Chat Bot", "923":"Chat Bot"},
+            "team": ["921"."926"],
+            "roles": {"926":"Embeddings and Vector DB", "921":"Chat Bot"},
             "repo": "https://github.com/joshsoftware/SupportHawk/",
             "demo": ""
         },
         {
-          "id": "3",
-          "name": "Voice Banking",
-          "description": "Simplifying everyday banking operations with voice commands in your local language",
-          "tech": "Python, Flutter, LLama 3, Whisper, IndicWhisper, Prompt Engineering",
-          "team": ["404"],
-          "roles": {"404":"Python, Flutter, LLama 3, Whisper, IndicWhisper, Prompt Engineering"},
-          "repo": "https://github.com/joshsoftware/voice-banking/",
-          "demo": ""
-        },
-        {
+              "id": "2",
+              "name": "Lingo.ai",
+              "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
+              "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
+              "team": ["926","929","921","SS13"],
+              "roles": {"926":"APIs, whisper & Llama integration", "929":"APIs, whisper & Llama integration", "921":"NextJS, Drizzle ORM, UploadThing ", "SS13":"Llama fine tunning"},
+              "repo": "https://github.com/joshsoftware/lingo.ai",
+              "demo": "https://lingo.ai.joshsoftware.com"
+        }
+        
+      ],
+      "planned": [
+         {
           "id": "926",
           "name": "AiCruit",
           "description": "AI-powered analysis of candidate interviews against job descriptions, delivering detailed insights for recruitment teams",
           "tech": "Python, NextJS, LLama 3, Faster Whisper, NeMo (Speaker Diarization), Prompt Engineering",
-          "team": ["404","924","913","429","926"],
-          "roles": {"404":"API, Spearker Diarization and Prompt Engieering", "924":"Mapping analysis to JDs for final insights","913":"Job application and analysis report UI","429":"HR Dashboard","926":"Resume Parsing and JD Matching"},
+          "team": ["913"],
+          "roles": {"913":"Job application and analysis report UI"},
           "repo": "https://github.com/joshsoftware/aicruit/",
           "demo": ""
         }
-      ],
-      "planned": [
-         {
-              "id": "2",
-              "name": "Survey Bees",
-              "description": "An AI-driven speech-to-speech agent for automating customer feedback collection, which will ask predefined questions, analyze responses, and rephrase questions if necessary to ensure complete feedback. This system enhances efficiency and engagement while reducing manual effort in feedback processes.",
-              "tech": "RAG, Python, FastAPI, RASA, Vector DB",
-              "team": ["834","234","928","921","915"],
-              "roles": {"834":"Prompt Engineering", "234":"RASA", "928":"RASA", "921":"Embedding, Postgres VectorDB", "915":"Voice Chatbot"},
-              "repo": "https://github.com/joshsoftware/surveybees/blob/main/README.md",
-              "demo": ""
-          }
       ]
   },
   "join_link": "https://forms.gle/m7idVXhbYbWneNRb7"
