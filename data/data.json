@@ -1,255 +1,327 @@
 {
   "members": [
+    {
+      "id": "83",
+      "name": "Anuj Verma",
+      "github": "iamanujvrma",
+      "designation": "Engineering Manager",
+      "active": false
+    },
+    {
+      "id": "2",
+      "name": "Shubham Pradhan",
+      "github": "ShubhamPradhan17",
+      "designation": "Software Engineer",
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "Monica",
+      "github": "Monica-MRN",
+      "designation": "Software Engineer",
+      "active": false
+    },
+    {
+      "id": "926",
+      "name": "Prajjwalkumar Panzade",
+      "github": "kumarpanzade",
+      "designation": "Software Engineer",
+      "active": true
+    },
+    {
+      "id": "929",
+      "name": "Sharyu Marwadi",
+      "github": "SharyuMarwadi",
+      "designation": "Software Engineer",
+      "active": false
+    },
+    {
+      "id": "921",
+      "name": "Sourabh Bharale",
+      "github": "sourabh-josh",
+      "designation": "Software Engineer",
+      "active": true
+    },
+    {
+      "id": "834",
+      "name": "Aditya Yadav",
+      "github": "Addy-tea-ya",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "916",
+      "name": "Samarth Kulkarni",
+      "github": "samrocks03",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "927",
+      "name": "Divya Tambat",
+      "github": "divyatambat",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "234",
+      "name": "Sagar Sonawane",
+      "github": "sagar23sj",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "404",
+      "name": "Ajinkya Karanjikar",
+      "github": "AjinkyaASK",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "414",
+      "name": "Ankitkumar Singh",
+      "github": "ankitatjosh",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "915",
+      "name": "Vinay Chopda",
+      "github": "AlgorithmChopda",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "928",
+      "name": "Sharanya Datrange",
+      "github": "SharanyaSD",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "1",
+      "name": "Sethupathi Asokan",
+      "github": "sethu",
+      "designation": "Co-founder & Director",
+      "active": true
+    },
+    {
+      "id": "SS13",
+      "name": "Vishwajeetsingh Desurkar",
+      "github": "selectus2",
+      "designation": "Senior Software Engineer",
+      "active": true
+    },
+    {
+      "id": "18",
+      "name": "Sushmita",
+      "github": "sushmitaw",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "466",
+      "name": "Sonal Sachdev",
+      "github": "13-Sonal",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "656",
+      "name": "Gaurav Sorte",
+      "github": "gauravsorte",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "365",
+      "name": "Aniket Gore",
+      "github": "anigore",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "653",
+      "name": "Shubham Kumar",
+      "github": "shubhh139",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "905",
+      "name": "Pooja Lande",
+      "github": "poojalandejosh",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "913",
+      "name": "Rohan Dhalpe",
+      "github": "RohanDhalpe05",
+      "designation": "Software Engineer",
+      "active": true
+    },
+    {
+      "id": "429",
+      "name": "Kartik Hiwase",
+      "github": "Kartik-Josh",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "924",
+      "name": "Abhishek Dhondalkar",
+      "github": "Abhishek-Jain-1925",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "923",
+      "name": "Saurabh Puri",
+      "github": "purisaurabh",
+      "designation": "",
+      "active": false
+    },
+    {
+      "id": "169",
+      "name": "Abhijeet Lokhande",
+      "github": "Abhi-at-josh",
+      "designation": "Intern",
+      "active": true
+    },
+    {
+      "id": "170",
+      "name": "Shadab Shikalgar",
+      "github": "Shadabb-josh",
+      "designation": "Intern",
+      "active": true
+    },
+    {
+      "id": "164",
+      "name": "Yash Shah",
+      "github": "YashShah-Josh",
+      "designation": "Intern",
+      "active": true
+    },
+    {
+      "id": "922",
+      "name": "Sumit Done",
+      "github": "Sumit2280",
+      "designation": "Software Engineer",
+      "active": true
+    },
+    {
+      "id": "171",
+      "name": "Sahil Bheke",
+      "github": "SahilBheke25",
+      "designation": "Intern",
+      "active": true
+    },
+    {
+      "id": "657",
+      "name": "Malhar Jadhav",
+      "github": "malharjadhav8999",
+      "designation": "Software Engineer",
+      "active": true
+    },
+    {
+      "id": "175",
+      "name": "Ravidas Gaikwad",
+      "github": "ravijosh2025",
+      "designation": "Intern",
+      "active": true
+    }
+  ],
+  "projects": {
+    "completed": [
       {
-          "id": "83",
-          "name": "Anuj Verma",
-          "github": "iamanujvrma",
-          "designation": "Engineering Manager",
-          "active":false
+        "id": "1",
+        "name": "E-KYC Spoof",
+        "description": "This is a PoC project for eKYC spoofing. Analyse if this issue is real and are there solutions If not, identify a tool to showcase the spoof a person in video Try to spoof it on eKYS website Identify a tool or contribute to a tool which can detect the spoof Or build eKYC spoofing as a testing utility for liveness detection",
+        "tech": "Python, OBS",
+        "team": ["83", "2", "3"],
+        "roles": {
+          "83": "R&D on video spoofing",
+          "2": "Setup and documentation",
+          "3": "R&D on deepfake"
+        },
+        "repo": "https://github.com/joshsoftware/ekyc-spoof",
+        "demo": "https://blog.joshsoftware.com/2024/10/01/will-the-real-deepfake-please-stand-up/"
       },
       {
-          "id": "2",
-          "name": "Shubham Pradhan",
-          "github": "ShubhamPradhan17",
-          "designation": "Software Engineer",
-          "active":false
+        "id": "2",
+        "name": "Lingo.ai",
+        "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
+        "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
+        "team": ["926", "929", "921", "SS13"],
+        "roles": {
+          "926": "APIs, whisper & Llama integration",
+          "929": "APIs, whisper & Llama integration",
+          "921": "NextJS, Drizzle ORM, UploadThing ",
+          "SS13": "Llama fine tunning"
+        },
+        "repo": "https://github.com/joshsoftware/lingo.ai",
+        "demo": "https://lingo.ai.joshsoftware.com"
       },
       {
-          "id": "3",
-          "name": "Monica",
-          "github": "Monica-MRN",
-          "designation": "Software Engineer",
-          "active":false
+        "id": "3",
+        "name": "Loglytics",
+        "description": "An AI-driven error log analyzer which identifies the cause of the error, steps to resolve the error, and the impact on business.",
+        "tech": "Ollama, FastAPI, Llama 3, NextJS",
+        "team": ["404", "365"],
+        "roles": { "404": "Ollama, Llama 3, FastAPI, NextJS", "365": "NextJS" },
+        "repo": "https://github.com/joshsoftware/ErrorLogAnalyser",
+        "demo": "https://loglytics.joshsoftware.com/"
+      }
+    ],
+    "ongoing": [
+      {
+        "id": "1",
+        "name": "Support Hawk",
+        "description": "Empowering customer conversations in their local language with tailored contextual understanding",
+        "tech": "Python, RoR, NextJS, LLama 3, AI4Bharat, Qdrant (Vector DB), RAG",
+        "team": ["921", "926", "SS13", "169"],
+        "roles": {
+          "926": "Embeddings and Vector DB",
+          "921": "Chat Bot",
+          "SS13": "Embeeding services",
+          "169": "UI integration"
+        },
+        "repo": "https://github.com/joshsoftware/SupportHawk/",
+        "demo": "https://support-hawk.joshsoftware.com"
+      },
+      {
+        "id": "2",
+        "name": "Lingo.ai",
+        "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
+        "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
+        "team": ["926", "921", "164", "2", "657", "169"],
+        "roles": {
+          "926": "APIs, whisper & Llama integration",
+          "921": "NextJS, Drizzle ORM, UploadThing",
+          "164": "Speaker Diarization",
+          "2": "Built bot flow to join Google Meet, upload to S3, and transcribe meetings.",
+          "657": "Chatbot and integrated secure logout functionality",
+          "169": "Implemented multi-part file upload to S3"
+        },
+        "repo": "https://github.com/joshsoftware/lingo.ai",
+        "demo": "https://lingo.ai.joshsoftware.com"
       },
       {
         "id": "926",
-        "name": "Prajjwalkumar Panzade",
-        "github": "kumarpanzade",
-        "designation": "Software Engineer",
-        "active":true
-      },
-      {
-        "id": "929",
-        "name": "Sharyu Marwadi",
-        "github": "SharyuMarwadi",
-        "designation": "Software Engineer",
-        "active":false
-      },
-      {
-        "id": "921",
-        "name": "Sourabh Bharale",
-        "github": "sourabh-josh",
-        "designation": "Software Engineer",
-        "active":true
-      },
-      {
-        "id": "834",
-        "name": "Aditya Yadav",
-        "github": "Addy-tea-ya",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id": "916",
-        "name": "Samarth Kulkarni",
-        "github": "samrocks03",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id": "927",
-        "name": "Divya Tambat",
-        "github": "divyatambat",
-        "designation": "",
-        "active":false
-      }, {
-        "id": "234",
-        "name": "Sagar Sonawane",
-        "github": "sagar23sj",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id": "404",
-        "name": "Ajinkya Karanjikar",
-        "github": "AjinkyaASK",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id": "414",
-        "name": "Ankitkumar Singh",
-        "github": "ankitatjosh",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id": "915",
-        "name": "Vinay Chopda",
-        "github": "AlgorithmChopda",
-        "designation": "",
-        "active":true
-      },
-      {
-        "id": "928",
-        "name": "Sharanya Datrange",
-        "github": "SharanyaSD",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id": "1",
-        "name": "Sethupathi Asokan",
-        "github": "sethu",
-        "designation": "",
-        "active":true
-      },
-      {
-        "id": "SS13",
-        "name": "Vishwajeetsingh Desurkar",
-        "github": "selectus2",
-        "designation": "",
-        "active":true
-      },      
-      {
-        "id": "18",
-        "name": "Sushmita",
-        "github": "sushmitaw",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id": "466",
-        "name": "Sonal Sachdev",
-        "github": "13-Sonal",
-        "designation": "",
-        "active":false
-      },
-      {
-        "id" : "656",
-        "name" : "Gaurav Sorte",
-        "github" : "gauravsorte",
-        "designation" : "",
-        "active" : false
-      },
-      {
-        "id" : "365",
-        "name" : "Aniket Gore",
-        "github" : "anigore",
-        "designation" : "",
-        "active" : false
-      },
-      {
-        "id" : "653",
-        "name" : "Shubham Kumar",
-        "github" : "shubhh139",
-        "designation" : "",
-        "active" : false
-      },
-      {
-        "id" : "905",
-        "name" : "Pooja Lande",
-        "github" : "poojalandejosh",
-        "designation" : "",
-        "active" : false
-      },
-      {
-        "id" : "913",
-        "name" : "Rohan Dhalpe",
-        "github" : "RohanDhalpe05",
-        "designation" : "",
-        "active" : true
-      },
-      {
-        "id" : "429",
-        "name" : "Kartik Hiwase",
-        "github" : "Kartik-Josh",
-        "designation" : "",
-        "active" : false
-      },
-      {
-        "id" : "924",
-        "name" : "Abhishek Dhondalkar",
-        "github" : "Abhishek-Jain-1925",
-        "designation" : "",
-        "active" : false
-      },
-      {
-        "id" : "923",
-        "name" : "Saurabh Puri",
-        "github" : "purisaurabh",
-        "designation" : "",
-        "active" : false
-      }
-  ],
-  "projects": {
-      "completed": [
-          {
-              "id": "1",
-              "name": "E-KYC Spoof",
-              "description": "This is a PoC project for eKYC spoofing. Analyse if this issue is real and are there solutions If not, identify a tool to showcase the spoof a person in video Try to spoof it on eKYS website Identify a tool or contribute to a tool which can detect the spoof Or build eKYC spoofing as a testing utility for liveness detection",
-              "tech": "Python, OBS",
-              "team": ["83","2","3"],
-              "roles": {"83":"R&D on video spoofing", "2":"Setup and documentation", "3":"R&D on deepfake"},
-              "repo": "https://github.com/joshsoftware/ekyc-spoof",
-              "demo": "https://blog.joshsoftware.com/2024/10/01/will-the-real-deepfake-please-stand-up/"
-          },
-          {
-              "id": "2",
-              "name": "Lingo.ai",
-              "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
-              "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
-              "team": ["926","929","921","SS13"],
-              "roles": {"926":"APIs, whisper & Llama integration", "929":"APIs, whisper & Llama integration", "921":"NextJS, Drizzle ORM, UploadThing ", "SS13":"Llama fine tunning"},
-              "repo": "https://github.com/joshsoftware/lingo.ai",
-              "demo": "https://lingo.ai.joshsoftware.com"
-          },
-          {
-                "id": "3",
-                "name": "Loglytics",
-                "description": "An AI-driven error log analyzer which identifies the cause of the error, steps to resolve the error, and the impact on business.",
-                "tech": "Ollama, FastAPI, Llama 3, NextJS",
-                "team": ["404","365"],
-                "roles": {"404":"Ollama, Llama 3, FastAPI, NextJS", "365":"NextJS" },
-                "repo": "https://github.com/joshsoftware/ErrorLogAnalyser",
-                "demo": "https://loglytics.joshsoftware.com/"
-            }
-      ],
-      "ongoing": [
-        {
-            "id": "1",
-            "name": "Support Hawk",
-            "description": "Empowering customer conversations in their local language with tailored contextual understanding",
-            "tech": "Python, RoR, NextJS, LLama 3, AI4Bharat, Qdrant (Vector DB), RAG",
-            "team": ["921","926","SS13"],
-            "roles": {"926":"Embeddings and Vector DB", "921":"Chat Bot", "SS13":"Embeeding services"},
-            "repo": "https://github.com/joshsoftware/SupportHawk/",
-            "demo": "https://support-hawk.joshsoftware.com"
+        "name": "AiCruit",
+        "description": "AI-powered analysis of candidate interviews against job descriptions, delivering detailed insights for recruitment teams",
+        "tech": "Python, NextJS, LLama 3, Faster Whisper, NeMo (Speaker Diarization), Prompt Engineering",
+        "team": ["913", "922"],
+        "roles": {
+          "913": "Job application and analysis report UI",
+          "922": "Worked on frontend and developed Rails API."
         },
-        {
-              "id": "2",
-              "name": "Lingo.ai",
-              "description": "Lingo.ai project converts voice input from different Indian languages into text and uses advanced Natural Language Processing (NLP) to generate concise summaries. This solution is ideal for streamlining customer service, legal documentation, and managing multilingual data, helping businesses handle large volumes of voice data efficiently.",
-              "tech": "Python, NextJs, FastAPI, Whisper, LLama 3.2, Model fine tunning ",
-              "team": ["926","921"],
-              "roles": {"926":"APIs, whisper & Llama integration", "921":"NextJS, Drizzle ORM, UploadThing "},
-              "repo": "https://github.com/joshsoftware/lingo.ai",
-              "demo": "https://lingo.ai.joshsoftware.com"
-        }
-        
-      ],
-      "planned": [
-         {
-          "id": "926",
-          "name": "AiCruit",
-          "description": "AI-powered analysis of candidate interviews against job descriptions, delivering detailed insights for recruitment teams",
-          "tech": "Python, NextJS, LLama 3, Faster Whisper, NeMo (Speaker Diarization), Prompt Engineering",
-          "team": ["913"],
-          "roles": {"913":"Job application and analysis report UI"},
-          "repo": "https://github.com/joshsoftware/aicruit/",
-          "demo": ""
-        }
-      ]
+        "repo": "https://github.com/joshsoftware/aicruit/",
+        "demo": ""
+      }
+    ],
+    "planned": []
   },
   "join_link": "https://forms.gle/m7idVXhbYbWneNRb7"
 }
