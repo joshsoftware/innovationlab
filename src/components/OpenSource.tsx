@@ -2,36 +2,12 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Star, Users, Globe } from 'lucide-react';
+import { Star, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { projects } from '@/data/projects';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const OpenSource = () => {
-  const projects = [
-    {
-      name: "WeekendJS",
-      description: "A lightweight framework for rapid prototyping during hackathons",
-      stars: "2.3k",
-      contributors: "45",
-      language: "JavaScript",
-      color: "bg-gradient-to-br from-josh-orange to-josh-orange-light"
-    },
-    {
-      name: "AI-Toolkit",
-      description: "Collection of ML utilities and helpers for weekend warriors",
-      stars: "1.8k",
-      contributors: "32",
-      language: "Python",
-      color: "bg-gradient-to-br from-josh-teal to-josh-teal-light"
-    },
-    {
-      name: "InnovateCLI",
-      description: "Command-line tools for bootstrapping innovation projects",
-      stars: "950",
-      contributors: "28",
-      language: "TypeScript",
-      color: "bg-gradient-to-br from-josh-purple to-josh-purple-light"
-    }
-  ];
-
   return (
     <section className="py-32 bg-white">
       <div className="max-w-7xl mx-auto px-8">
@@ -46,34 +22,42 @@ const OpenSource = () => {
         
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {projects.map((project, index) => (
-            <Card 
-              key={index} 
-              className="group hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 bg-white border-0 rounded-3xl overflow-hidden"
-            >
-              <CardHeader className="pb-4">
-                <div className="flex items-center justify-between mb-4">
-                  <CardTitle className="text-2xl font-display font-bold text-josh-gray-900">
-                    {project.name}
-                  </CardTitle>
-                  <div className="flex items-center space-x-1 text-josh-gray-600">
-                    <Star className="w-4 h-4 text-josh-orange fill-current" />
-                    <span className="text-sm font-semibold">{project.stars}</span>
+            <Link to={`/projects/${project.slug}`} key={index} className="block h-full">
+              <Card 
+                className="group hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 bg-white border-0 rounded-3xl overflow-hidden h-full flex flex-col"
+              >
+                <CardHeader className="pb-4">
+                  <div className="flex items-center justify-between mb-4">
+                    <CardTitle className="text-2xl font-display font-bold text-josh-gray-900">
+                      {project.name}
+                    </CardTitle>
+                    <div className="flex items-center space-x-1 text-josh-gray-600">
+                      <Star className="w-4 h-4 text-josh-orange fill-current" />
+                      <span className="text-sm font-semibold">{project.stars}</span>
+                    </div>
                   </div>
-                </div>
-                <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold text-white w-fit ${project.color}`}>
-                  {project.language}
-                </div>
-              </CardHeader>
-              <CardContent className="pt-0">
-                <CardDescription className="text-josh-gray-600 mb-6 leading-relaxed text-base">
-                  {project.description}
-                </CardDescription>
-                <div className="flex items-center text-josh-gray-500 text-sm">
-                  <Users className="w-4 h-4 mr-2" />
-                  <span className="font-medium">{project.contributors} contributors</span>
-                </div>
-              </CardContent>
-            </Card>
+                  <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold text-white w-fit ${project.color}`}>
+                    {project.language}
+                  </div>
+                </CardHeader>
+                <CardContent className="pt-0 flex flex-col flex-grow">
+                  <CardDescription className="text-josh-gray-600 mb-6 leading-relaxed text-base">
+                    {project.description}
+                  </CardDescription>
+                  <div className="mt-auto flex items-center text-josh-gray-500 text-sm">
+                      <div className="flex -space-x-2 overflow-hidden mr-3">
+                          {project.contributors.map((c, i) => (
+                              <Avatar key={i} className="inline-block h-8 w-8 rounded-full ring-2 ring-white">
+                                  <AvatarImage src={c.avatar} alt={c.name} />
+                                  <AvatarFallback>{c.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                              </Avatar>
+                          ))}
+                      </div>
+                      <span className="font-medium">{project.contributors.length} contributors</span>
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
           ))}
         </div>
         
