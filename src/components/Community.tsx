@@ -6,56 +6,65 @@ import { Users, Sparkles, Globe } from 'lucide-react';
 
 const Community = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white relative overflow-hidden">
-      {/* Background decorative elements */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 right-10 w-32 h-32 bg-orange-400 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-10 left-10 w-40 h-40 bg-amber-400 rounded-full blur-xl animate-pulse delay-1000"></div>
+    <section className="py-32 bg-gray-900 text-white relative overflow-hidden">
+      {/* Background elements */}
+      <div className="absolute inset-0">
+        <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-indigo-500/20 to-electric-500/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-tr from-coral-500/20 to-indigo-500/20 rounded-full blur-3xl"></div>
       </div>
       
-      <div className="relative z-10 max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+      <div className="relative z-10 max-w-7xl mx-auto px-8">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl font-display font-bold mb-6">
             Join the Innovation Revolution
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-medium">
             Ready to turn your weekend curiosity into groundbreaking projects? 
-            Connect with fellow innovators, share ideas, and build the future together.
+            Connect with fellow Josh Software innovators and build the future together.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 transition-all duration-300">
-            <CardContent className="p-6 text-center">
-              <Users className="w-12 h-12 mx-auto mb-4 text-orange-400" />
-              <h3 className="text-xl font-bold mb-2">Connect</h3>
-              <p className="text-gray-300">Join our Discord community and meet fellow weekend warriors</p>
+        <div className="grid lg:grid-cols-3 gap-8 mb-20">
+          <Card className="bg-white/5 backdrop-blur-xl border border-white/10 text-white hover:bg-white/10 transition-all duration-500 rounded-3xl group transform hover:-translate-y-2">
+            <CardContent className="p-8 text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-indigo-500 to-electric-500 flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                <Users className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-display font-bold mb-4">Connect</h3>
+              <p className="text-gray-300 font-medium">Join our Slack community and meet fellow Josh Software weekend warriors</p>
             </CardContent>
           </Card>
           
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 transition-all duration-300">
-            <CardContent className="p-6 text-center">
-              <Sparkles className="w-12 h-12 mx-auto mb-4 text-amber-400" />
-              <h3 className="text-xl font-bold mb-2">Create</h3>
-              <p className="text-gray-300">Participate in weekly hackathons and bring your ideas to life</p>
+          <Card className="bg-white/5 backdrop-blur-xl border border-white/10 text-white hover:bg-white/10 transition-all duration-500 rounded-3xl group transform hover:-translate-y-2">
+            <CardContent className="p-8 text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-electric-500 to-coral-400 flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                <Sparkles className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-display font-bold mb-4">Create</h3>
+              <p className="text-gray-300 font-medium">Participate in weekly hackathons and bring your ideas to life</p>
             </CardContent>
           </Card>
           
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20 transition-all duration-300">
-            <CardContent className="p-6 text-center">
-              <Globe className="w-12 h-12 mx-auto mb-4 text-yellow-400" />
-              <h3 className="text-xl font-bold mb-2">Contribute</h3>
-              <p className="text-gray-300">Share your projects with the world and make an impact</p>
+          <Card className="bg-white/5 backdrop-blur-xl border border-white/10 text-white hover:bg-white/10 transition-all duration-500 rounded-3xl group transform hover:-translate-y-2">
+            <CardContent className="p-8 text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-coral-500 to-indigo-500 flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                <Globe className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-display font-bold mb-4">Contribute</h3>
+              <p className="text-gray-300 font-medium">Share your projects with the world and make an impact</p>
             </CardContent>
           </Card>
         </div>
         
         <div className="text-center">
-          <Button size="lg" className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-semibold px-12 py-4 rounded-full transform hover:scale-105 transition-all duration-200 text-lg">
+          <Button 
+            size="lg" 
+            className="bg-gradient-to-r from-indigo-600 to-electric-600 hover:from-indigo-700 hover:to-electric-700 text-white font-semibold px-12 py-5 rounded-2xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 text-lg shadow-2xl"
+          >
             Start Your Innovation Journey
           </Button>
-          <p className="text-sm text-gray-400 mt-4">
-            Free to join • Open to all skill levels • Fully remote friendly
+          <p className="text-sm text-gray-400 mt-6 font-medium">
+            Free to join • Open to all Josh Software employees • Fully remote friendly
           </p>
         </div>
       </div>
