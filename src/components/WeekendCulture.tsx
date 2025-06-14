@@ -9,36 +9,36 @@ const WeekendCulture = () => {
       icon: Clock, 
       value: "48hrs", 
       label: "Weekend Hackathons", 
-      gradient: "from-indigo-500 to-electric-500" 
+      gradient: "from-josh-blue to-josh-teal" 
     },
     { 
       icon: Users, 
       value: "150+", 
       label: "Active Members", 
-      gradient: "from-electric-500 to-coral-400" 
+      gradient: "from-josh-teal to-josh-orange" 
     },
     { 
       icon: Sparkles, 
       value: "80+", 
       label: "Projects Launched", 
-      gradient: "from-coral-500 to-indigo-500" 
+      gradient: "from-josh-orange to-josh-purple" 
     },
     { 
       icon: Rocket, 
       value: "12", 
       label: "Months Running", 
-      gradient: "from-indigo-600 to-electric-600" 
+      gradient: "from-josh-purple to-josh-blue" 
     }
   ];
 
   return (
-    <section className="py-32 bg-gray-50/50">
+    <section className="py-32 bg-josh-gray-50/50">
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-display font-bold text-gray-900 mb-6">
+          <h2 className="text-5xl md:text-6xl font-display font-bold text-josh-gray-900 mb-6">
             Weekend Innovation Culture
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
+          <p className="text-xl text-josh-gray-600 max-w-3xl mx-auto font-medium">
             Every weekend is an opportunity to create something amazing. We gather, ideate, code, and ship projects that matter.
           </p>
         </div>
@@ -53,14 +53,14 @@ const WeekendCulture = () => {
                 <div className={`w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br ${stat.gradient} flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300`}>
                   <stat.icon className="w-10 h-10 text-white" />
                 </div>
-                <div className="text-4xl font-display font-bold text-gray-900 mb-2">{stat.value}</div>
-                <div className="text-gray-600 font-medium">{stat.label}</div>
+                <div className="text-4xl font-display font-bold text-josh-gray-900 mb-2">{stat.value}</div>
+                <div className="text-josh-gray-600 font-medium">{stat.label}</div>
               </CardContent>
             </Card>
           ))}
         </div>
         
-        <div className="bg-gradient-to-r from-indigo-600 via-electric-600 to-coral-500 rounded-3xl p-12 text-white text-center relative overflow-hidden">
+        <div className="bg-gradient-to-r from-josh-blue via-josh-teal to-josh-orange rounded-3xl p-12 text-white text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-white/10 backdrop-blur-sm rounded-3xl"></div>
           <div className="relative z-10">
             <h3 className="text-3xl md:text-4xl font-display font-bold mb-6">
@@ -71,7 +71,7 @@ const WeekendCulture = () => {
               By Sunday evening, we've built something incredible together.
             </p>
             <div className="inline-flex items-center px-6 py-3 bg-white/20 rounded-2xl text-lg font-semibold backdrop-blur-sm">
-              <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
+              <div className="w-3 h-3 bg-josh-teal-light rounded-full mr-3 animate-pulse"></div>
               Next Session: This Saturday 9 AM IST
             </div>
           </div>

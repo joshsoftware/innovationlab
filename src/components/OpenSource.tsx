@@ -12,7 +12,7 @@ const OpenSource = () => {
       stars: "2.3k",
       contributors: "45",
       language: "JavaScript",
-      color: "bg-gradient-to-br from-yellow-400 to-orange-500"
+      color: "bg-gradient-to-br from-josh-orange to-josh-orange-light"
     },
     {
       name: "AI-Toolkit",
@@ -20,7 +20,7 @@ const OpenSource = () => {
       stars: "1.8k",
       contributors: "32",
       language: "Python",
-      color: "bg-gradient-to-br from-green-400 to-blue-500"
+      color: "bg-gradient-to-br from-josh-teal to-josh-teal-light"
     },
     {
       name: "InnovateCLI",
@@ -28,7 +28,7 @@ const OpenSource = () => {
       stars: "950",
       contributors: "28",
       language: "TypeScript",
-      color: "bg-gradient-to-br from-purple-400 to-pink-500"
+      color: "bg-gradient-to-br from-josh-purple to-josh-purple-light"
     }
   ];
 
@@ -36,10 +36,10 @@ const OpenSource = () => {
     <section className="py-32 bg-white">
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-display font-bold text-gray-900 mb-6">
+          <h2 className="text-5xl md:text-6xl font-display font-bold text-josh-gray-900 mb-6">
             Open Source Impact
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
+          <p className="text-xl text-josh-gray-600 max-w-3xl mx-auto font-medium">
             Building in the open, sharing our learnings, and contributing to the global developer community.
           </p>
         </div>
@@ -52,11 +52,11 @@ const OpenSource = () => {
             >
               <CardHeader className="pb-4">
                 <div className="flex items-center justify-between mb-4">
-                  <CardTitle className="text-2xl font-display font-bold text-gray-900">
+                  <CardTitle className="text-2xl font-display font-bold text-josh-gray-900">
                     {project.name}
                   </CardTitle>
-                  <div className="flex items-center space-x-1 text-gray-600">
-                    <Star className="w-4 h-4 text-yellow-500 fill-current" />
+                  <div className="flex items-center space-x-1 text-josh-gray-600">
+                    <Star className="w-4 h-4 text-josh-orange fill-current" />
                     <span className="text-sm font-semibold">{project.stars}</span>
                   </div>
                 </div>
@@ -65,10 +65,10 @@ const OpenSource = () => {
                 </div>
               </CardHeader>
               <CardContent className="pt-0">
-                <CardDescription className="text-gray-600 mb-6 leading-relaxed text-base">
+                <CardDescription className="text-josh-gray-600 mb-6 leading-relaxed text-base">
                   {project.description}
                 </CardDescription>
-                <div className="flex items-center text-gray-500 text-sm">
+                <div className="flex items-center text-josh-gray-500 text-sm">
                   <Users className="w-4 h-4 mr-2" />
                   <span className="font-medium">{project.contributors} contributors</span>
                 </div>
@@ -80,7 +80,7 @@ const OpenSource = () => {
         <div className="text-center">
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-electric-600 to-indigo-600 hover:from-electric-700 hover:to-indigo-700 text-white font-semibold px-10 py-4 rounded-2xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-lg"
+            className="bg-gradient-to-r from-josh-teal to-josh-blue hover:from-josh-teal-light hover:to-josh-blue-light text-white font-semibold px-10 py-4 rounded-2xl transform hover:scale-105 hover:-translate-y-1 transition-all duration-300 shadow-lg"
           >
             <Globe className="w-5 h-5 mr-3" />
             Explore All Projects
